@@ -1,0 +1,124 @@
+body{
+  background-image: url("Web09.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two{
+width: 90%;
+height: 605px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.threee{
+
+}
+
+.label{
+display: none; 
+}
+.four{
+  background-color: white;
+  float: right;
+color: blue;
+width: 49%;
+height: 605px;
+position: absolute;
+left: 680px;
+top:20px;
+}
+.four h1{
+  padding-top: 60px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.four h3{
+  font-weight: bold;
+  font-family: cursive;
+  color: red;
+}
+.four input{
+  height: 50px;
+  width: 35%;
+  border-radius: 7px;
+  border-color: blue;
+  color: blue;
+  text-align: center;
+}
+.error{
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+
+input:hover{
+  border-color: red;
+}
+input::first-letter{
+    border-color: red;
+}
+input::placeholder{
+  text-align: center;
+  color: blue;
+  font-family: serif;
+  font-size: 1rem;
+}
+.four button{
+  height: 40px;
+  margin-top: 20px;
+  width: 20%;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+.threee img{
+  padding-top: 12px;
+width: 49%;
+position: absolute;
+height: 605px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: green;
+  cursor: help;
+}
+
+
+@media only screen and (max-width: 680px) {
+  .four{
+    background-color: white;
+    float: right;
+  color: blue;
+  width: 44.5%;
+  height: 600px;
+  position: absolute;
+  left: 10px;
+  top:10px;
+  }
+
+  .ade{
+    display: none;
+  }
+  .four{
+    background-color: white;
+    float: right;
+  color: red;
+  width: 95%;
+  border-radius: 10px;
+  height: 405px;
+  position: absolute;
+  left: 10px;
+  top:16px;
+  }
+  h1{
+  color: blue;
+  text-align: center;
+  font-size: 1rem;
+  font-family: serif;
+  }
+
+
+
+
+}

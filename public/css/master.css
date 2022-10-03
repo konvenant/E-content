@@ -1,0 +1,201 @@
+body{
+  background-image: url("Web04-1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.append{
+  color: blue;
+  padding-top: 20px;
+}
+
+p{
+  color: black;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+  margin-left: 25px;
+  margin-left: 25px;
+font-family: sans-serif;
+text-align: left;
+  font-size: 2rem;
+}
+h1{
+  color: red;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: serif;
+}
+h2{
+font-family: sans-serif;
+padding-bottom: 7px;
+text-align: center;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: blue;
+}
+
+li{
+  margin-left: 15px;
+  margin-right: 12px;
+  text-align: left;
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+img{
+  width: 80%;
+  height: 500px;
+}
+
+h4{
+  font-size: 2rem;
+}
+h2{
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: left;
+  font-family: serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+table,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+font-family: sans-serif;
+padding: 4px;
+}
+table{
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+.two{
+  border: 1px solid blue;
+}
+
+.one{
+  width: 90%;
+  height: 500px;
+}
+
+button{
+  color: white;
+  font-family: monospace;
+  width: 100px;
+  height: 40px;
+}
+.bttn{
+  background-color: red;
+  border-radius: 5px;
+  border-color: red;
+}
+.bttn a{
+  color: white;
+}
+.btnn a{
+  color: white;
+}
+
+.button{
+  border-radius: 50%;
+  width: 4%;
+  font-family: cursive;
+  height: 50px;
+  color: red;
+  border: 1px solid blue;
+  background-color: white;
+  position: fixed;
+  right: 45px;
+  bottom: 50px;
+}
+.button:hover{
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+}
+
+.btnn{
+  background-color: blue;
+  border-radius: 5px;
+  border-color: blue;
+  color: white;
+}
+
+/* .high{
+  text-align: left;
+} */
+
+@media only screen and (max-width: 580px) {
+
+.paraf{
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 2rem;
+  font-family: cursive;
+color: red;
+}
+
+p{
+  font-size: 0.95rem;
+  font-family: sans-serif;
+  line-height: 1rem;
+  letter-spacing: 2px;
+  margin-left: 55px;
+  text-align: left;
+  padding-right: 20px;
+
+}
+h2{
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+.one h2{
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+li{
+  margin-left: 15px;
+  margin-right: 12px;
+  text-align: left;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+img{
+  width: 80%;
+  height: 200px;
+}
+.one{
+  width: 80%;
+  height: 300px;
+
+}
+h4{
+  font-size: 1rem;
+}
+.button{
+  border-radius: 50%;
+  width: 7%;
+  font-family: cursive;
+  height: 40px;
+  text-align: center;
+  font-size: 0.6rem;
+  color: red;
+  border: 1px solid blue;
+  background-color: white;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+}
+}
