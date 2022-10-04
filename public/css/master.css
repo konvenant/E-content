@@ -185,7 +185,7 @@ h4{
 }
 .button{
   border-radius: 50%;
-  width: 9%;
+  width: 15%;
   font-family: cursive;
   height: 40px;
   text-align: center;
@@ -195,6 +195,6 @@ h4{
   background-color: white;
   position: fixed;
   right: 45px;
-  bottom: 20px;
+  bottom: 30px;
 }
 }
