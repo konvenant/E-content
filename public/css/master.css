@@ -1,7 +1,8 @@
 body{
   background-image: url("Web04-1.JPG");
   background-repeat: no-repeat;
-  background-size: cover;
+background-attachment: fixed;
+
   text-align: center;
 }
 .append{
@@ -185,7 +186,7 @@ h4{
 }
 .button{
   border-radius: 50%;
-  width: 15%;
+  width: 12%;
   font-family: cursive;
   height: 40px;
   text-align: center;
