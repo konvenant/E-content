@@ -14,7 +14,7 @@ margin-top: 10px;
 }
 
 .label{
-display: none; 
+display: none;
 }
 .four{
   background-color: white;
@@ -91,10 +91,10 @@ a{
     float: right;
   color: blue;
   width: 44.5%;
-  height: 600px;
+  height: 500px;
   position: absolute;
   left: 10px;
-  top:10px;
+  top:30px;
   }
 
   .ade{
@@ -104,12 +104,12 @@ a{
     background-color: white;
     float: right;
   color: red;
-  width: 95%;
+  width: 90%;
   border-radius: 10px;
-  height: 405px;
+  height: 420px;
   position: absolute;
-  left: 10px;
-  top:16px;
+  left: 25px;
+  top:86px;
   }
   h1{
   color: blue;
@@ -119,6 +119,11 @@ a{
   }
 
 
-
+  input::placeholder{
+    text-align: center;
+    color: blue;
+    font-family: serif;
+    font-size: 0.8rem;
+  }
 
 }
