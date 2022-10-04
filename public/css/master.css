@@ -1,7 +1,6 @@
 body{
   background-image: url("Web04-1.JPG");
-  background-repeat: no-repeat;
-background-attachment: scroll;
+background-attachment: fixed;
 
   text-align: center;
 }
