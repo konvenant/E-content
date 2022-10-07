@@ -16,6 +16,10 @@ margin-top: 10px;
 
 .label{
 display: none;
+color: red;
+font-family: monospace;
+font-size: 20px;
+margin-top: 2px;
 }
 .four{
   background-color: white;

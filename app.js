@@ -40,9 +40,10 @@ app.post("/", function(req,res){
   var input = req.body.input;
 
   if(input == "nelson" || input == "Nelson" || input == "NELSON"){
-    res.render("appendix")
+    setTimeout(() => res.render("appendix"), 1000)
   } else{
 console.log("error");
+setTimeout(() => res.render("home"), 10000)
   }
 });
 

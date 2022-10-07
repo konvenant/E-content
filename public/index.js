@@ -1,7 +1,5 @@
+document.getElementById("btn").addEventListener("click", myFunction );
 
-var btn = document.getElementById("btn");
-var label =   document.getElementById("label");
-btn.addEventListener("click", function(){
-  label.style.display = "block";
-  label.style.color = "red";
-});
+function myFunction() {
+setTimeout(() =>   document.getElementById("label").style.display = "block", 3000);
+}

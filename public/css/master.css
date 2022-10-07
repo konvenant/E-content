@@ -6,13 +6,6 @@ background-attachment: fixed; */
 
 }
 
-.bga{
-  width: 100%
-min-height: 100%;
-  background-image: url("Web04-1.JPG");
-background-size: cover;
-background-attachment: scroll;
-}
 
 .append{
   color: blue;
@@ -223,7 +216,7 @@ h4{
 
 .buttonx{
   border-radius: 50%;
-  width: 12%;
+  width: 10%;
   font-family: cursive;
   height: 40px;
   text-align: center;
@@ -232,7 +225,7 @@ h4{
   border: 1px solid blue;
   background-color: white;
   position: fixed;
-  right: 55px;
+  right: 85px;
   bottom: 30px;
 }
 
@@ -243,15 +236,12 @@ h1{
   font-family: serif;
 }
 
-.two{
-  width: 100%;
-  margin-left: 1px;
-  border: 1px solid blue;
-}
+
 
 .head{
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  margin-left: 10px;
 
 }
 
