@@ -101,6 +101,13 @@ a{
   left: 10px;
   top:30px;
   }
+  .label{
+  display: none;
+  color: red;
+  font-family: monospace;
+  font-size: 10px;
+  margin-top: 2px;
+  }
 
   .ade{
     display: none;
