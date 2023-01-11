@@ -140,14 +140,16 @@ button{
   color: red;
   border: 1px solid blue;
   background-color: white;
-  position: fixed;
+  position: static;
   right: 45px;
   bottom: 50px;
+  transition: 2s;
 }
 .button:hover{
   border: 1px solid white;
   background-color: red;
   color: white;
+  transition: 2s;
 }
 
 .btnn{

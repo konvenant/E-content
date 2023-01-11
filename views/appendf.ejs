@@ -3,30 +3,102 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
     <title>E-CONTENT</title>
     <link rel="icon" href="econtent/Web03-1.JPG">
     <link rel="stylesheet" href="css/master.css">
   </head>
-  <body class="paraf">
-    <h1 class="append">APPENDIX F</h1>
-    <p>Lesson Plan
-	The teacher of experimental group will use e-content lesson plan to teach building construction selected topics;
-  this will be based on e-content teaching strategy.</p>
+  <body onload="myFunction()" style="margin:0;" class="paraf">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+      <h1 class="append">APPENDIX F</h1>
+      <p>Lesson Plan
+      The teacher of experimental group will use e-content lesson plan to teach building construction selected topics;
+      this will be based on e-content teaching strategy.</p>
 
-  <p>
-Six sets of lesson plans will be used for a period of six weeks developed by the researcher to teach the conventional class.
-  </p>
-<p>
-   The researcher will put into consideration the age, class of students, the eighty (80) minutes duration, the specific objectives and their relation to the lesson topics in preparing the lesson plans.</p>
-<p>The lesson plans will be written based on multimedia e-content strategies which will follow the specific steps identified in the literature.</p>
-<button class="button" name="button"><a href="/appendix">Home</a></button>
-<p>Effort will also be made to bring in those strategies that differentiate e-content instructional strategies from convectional teaching methods. The subject teacher in the experimental group will apply this lesson plan at different stages of instructional process. While the teacher in the control group set will use the normal lesson plans prepared by the researcher building construction in the conventional lecture approach.<br><br>
-</p>
-<p>LESSON PLANS FOR TEACHING BUILDING CONSTRUCTION CONVENTIONAL METHOD
-</p>
+      <p>
+      Six sets of lesson plans will be used for a period of six weeks developed by the researcher to teach the conventional class.
+      </p>
+      <p>
+      The researcher will put into consideration the age, class of students, the eighty (80) minutes duration, the specific objectives and their relation to the lesson topics in preparing the lesson plans.</p>
+      <p>The lesson plans will be written based on multimedia e-content strategies which will follow the specific steps identified in the literature.</p>
+      <button class="button" name="button"><a href="/appendix">Home</a></button>
+      <p>Effort will also be made to bring in those strategies that differentiate e-content instructional strategies from convectional teaching methods. The subject teacher in the experimental group will apply this lesson plan at different stages of instructional process. While the teacher in the control group set will use the normal lesson plans prepared by the researcher building construction in the conventional lecture approach.<br><br>
+      </p>
+      <p>LESSON PLANS FOR TEACHING BUILDING CONSTRUCTION CONVENTIONAL METHOD
+      </p>
 
-<button class="bttn" type="button" name="button"><a href="/appendix">Prev</a></button>
-<button class="btnn" type="button" name="button"><a href="/weekone">Next</a></button>
+      <button class="bttn" type="button" name="button"><a href="/appendix">Prev</a></button>
+      <button class="btnn" type="button" name="button"><a href="/weekone">Next</a></button>
+    </div>
+
+
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
   </body>
 
 

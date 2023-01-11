@@ -20,6 +20,7 @@ color: red;
 font-family: monospace;
 font-size: 20px;
 margin-top: 2px;
+transition: 2s;
 }
 .four{
   background-color: white;
