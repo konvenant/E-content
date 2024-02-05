@@ -16,7 +16,7 @@ app.get("/", function (req, res){
 app.get("/appendix", function (req, res){
   res.render("appendix");
 });
-app.get("/appendf", function (req, res){
+app.get("/appendixg", function (req, res){
   res.render("appendf");
 });
 app.get("/weekone", function (req, res){
