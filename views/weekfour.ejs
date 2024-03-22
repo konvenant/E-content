@@ -55,6 +55,35 @@
   display: none;
   text-align: center;
   }
+
+  /* Base styles */
+  .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+        overflow: hidden;
+    }
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 768px) {
+        .iframe-container {
+            padding-bottom: 75%; /* Adjust aspect ratio as needed */
+        }
+    }
+
+    /* Media query for even smaller screens */
+    @media screen and (max-width: 480px) {
+        .iframe-container {
+            padding-bottom: 100%; /* Adjust aspect ratio as needed */
+        }
+    }
   </style>
     <title>E-Content</title>
     <link rel="stylesheet" href="css/master.css">
@@ -94,7 +123,9 @@
   <h2>Watch Video:</h2>
 
    <!-- <video src="/econtent/week-4-vid.MOV" controls></video> -->
-   <iframe src="https://drive.google.com/file/d/1fnlMFT6s0ZiKAJF_FtplDdClRa5dJ0yL/preview" width="640" height="480" allow="autoplay"></iframe>
+   <div class="iframe-container">
+    <iframe src="https://drive.google.com/file/d/1VpsXRj6-jJapnX4zoaqNwnHqLjWVLZcJ/preview"  allow="autoplay"></iframe>
+  </div>
   <h2>Instructional Procedure: </h2>
   <!-- <table>
     <thead>
